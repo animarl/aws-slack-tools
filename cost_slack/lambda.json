@@ -1,0 +1,14 @@
+{
+  "name": "LAMBDA_APP_NAME",
+  "description": "APP_DESCRIPTION",
+  "region": "REGION",
+  "handler": "cost.lambda_handler",
+  "role": "ROLE_ARN",
+  "timeout": 150,
+  "memory": 128,
+  "variables":
+    {
+      "SlackPostURL":"https://hooks.slack.com/services/xxxxxx/yyyyyy/zzzzzz",
+      "SlackChannelName":"#xxxxxx"
+    }
+}

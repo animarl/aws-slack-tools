@@ -6,14 +6,10 @@ import json
 import boto3
 import datetime
 import requests
-import logging
 import os
 
 from boto3 import Session
 from datetime import datetime
-
-logger = logging.getLogger()
-logger.setLevel(logging.INFO)
 
 alltotalsize = 0
 alltotalobjcount = 0
